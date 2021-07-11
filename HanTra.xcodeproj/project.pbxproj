@@ -15,6 +15,11 @@
 		4A7F85CE268ADD810023C502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7F85CC268ADD810023C502 /* LaunchScreen.storyboard */; };
 		4A7F85D9268ADD810023C502 /* HanTraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85D8268ADD810023C502 /* HanTraTests.swift */; };
 		4A7F85E4268ADD810023C502 /* HanTraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85E3268ADD810023C502 /* HanTraUITests.swift */; };
+		4A7F85F2268AEB3C0023C502 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85F1268AEB3C0023C502 /* SceneDelegate.swift */; };
+		4A7F85F4268B00DA0023C502 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85F3268B00DA0023C502 /* FeedView.swift */; };
+		4A7F85F6268B0BD40023C502 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85F5268B0BD40023C502 /* AppError.swift */; };
+		4A7F85F8268B19FF0023C502 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85F7268B19FF0023C502 /* Human.swift */; };
+		4A7F85FA268D77D30023C502 /* ARData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F85F9268D77D30023C502 /* ARData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4A7F85DF268ADD810023C502 /* HanTraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanTraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7F85E3268ADD810023C502 /* HanTraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanTraUITests.swift; sourceTree = "<group>"; };
 		4A7F85E5268ADD810023C502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7F85F1268AEB3C0023C502 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A7F85F3268B00DA0023C502 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4A7F85F5268B0BD40023C502 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		4A7F85F7268B19FF0023C502 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		4A7F85F9268D77D30023C502 /* ARData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				4A7F85CA268ADD810023C502 /* Assets.xcassets */,
 				4A7F85CC268ADD810023C502 /* LaunchScreen.storyboard */,
 				4A7F85CF268ADD810023C502 /* Info.plist */,
+				4A7F85F1268AEB3C0023C502 /* SceneDelegate.swift */,
+				4A7F85F3268B00DA0023C502 /* FeedView.swift */,
+				4A7F85F5268B0BD40023C502 /* AppError.swift */,
+				4A7F85F7268B19FF0023C502 /* Human.swift */,
+				4A7F85F9268D77D30023C502 /* ARData.swift */,
 			);
 			path = HanTra;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7F85FA268D77D30023C502 /* ARData.swift in Sources */,
+				4A7F85F2268AEB3C0023C502 /* SceneDelegate.swift in Sources */,
 				4A7F85C6268ADD800023C502 /* ViewController.swift in Sources */,
+				4A7F85F6268B0BD40023C502 /* AppError.swift in Sources */,
 				4A7F85C2268ADD800023C502 /* AppDelegate.swift in Sources */,
+				4A7F85F8268B19FF0023C502 /* Human.swift in Sources */,
+				4A7F85F4268B00DA0023C502 /* FeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
